@@ -9,11 +9,13 @@
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <!-- Bootstrap JS -->
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/print-data.js' %}"></script>
     <title>Landing Page</title>
 </head>
 <body>
     <h1>Welcome to Our Website</h1>
     <p>This is the landing page.</p>
+    <p id="data"></p>
     <a href="{% url 'register_page' %}">Register</a>
 </body>
 </html>

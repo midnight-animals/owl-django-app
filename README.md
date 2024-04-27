@@ -1,6 +1,7 @@
 # Owl's Django App
 
 [Django Docs](https://docs.djangoproject.com/en/5.0/)
+[Project template](https://docs.djangoproject.com/en/5.0/intro/tutorial01/#creating-a-project)
 
 ## Installation
 1. Clone the repository:
@@ -30,6 +31,7 @@ pip install -r requirements.txt
 ```
 5. Run Development server
 ```bash
+# https://docs.djangoproject.com/en/5.0/intro/tutorial01/#the-development-server
 python manage.py runserver
 ```
 Visit http://127.0.0.1:8000/ in your web browser to access the app.

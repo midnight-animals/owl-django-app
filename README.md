@@ -1,5 +1,7 @@
 # Owl's Django App
 
+[Django Docs](https://docs.djangoproject.com/en/5.0/)
+
 ## Installation
 1. Clone the repository:
 ```bash
@@ -10,12 +12,12 @@ git clone https://github.com/midnight-animals/owl-django-app
 cd owl-django-app/demoapp
 sudo apt update
 sudo apt install python3-venv
-python3 -m venv env 
+python3 -m venv env
 ```
 
 3. Activate virtual environment
 ```bash
-source env/bin/activate 
+source env/bin/activate
 ```
 You can deactive the virtual environment by
 ```bash
